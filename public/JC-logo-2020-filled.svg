@@ -1,0 +1,16 @@
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <style>
+        .cls-1{fill:#02080c;stroke:#DE36F6;stroke-miterlimit:10;stroke-width:1.5px;}
+        .cls-2{fill:#95F7D0;}
+        .cls-3{fill:#95F7D0;}
+        .cls-4{fill:none;stroke:#95F7D0;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px;}
+        </style>
+    </defs>
+    <title>DD-logo-2020-filled</title>
+    <circle class="cls-1" cx="50" cy="50" r="47.45"/>
+    <path class="cls-2" d="M30,49.09V11.66h8.56c5.78,0,8.56,2.94,8.56,9.09v19.25c0,6.15-2.78,9.09-8.56,9.09H30zm5.88-5.35h2.51c2.35,0,3.48-1.12,3.48-3.58V20.75c0-2.46-1.13-3.58-3.48-3.58H35.88V43.74z"/>
+    <path class="cls-3" d="M52.61,88.34V50.91h8.56c5.78,0,8.56,2.94,8.56,9.09v19.25c0,6.15-2.78,9.09-8.56,9.09H52.61zm5.88-5.35h2.51c2.35,0,3.48-1.12,3.48-3.58V60c0-2.46-1.13-3.58-3.48-3.58H58.49V82.99z"/>
+    <line class="cls-4" x1="74.78" y1="25.22" x2="25.22" y2="74.78"/>
+</svg>
