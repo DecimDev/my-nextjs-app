@@ -29,7 +29,7 @@ class Particle {
     }
 
     draw(ctx: CanvasRenderingContext2D) {
-        ctx.strokeStyle = 'rgba(149, 247, 208, 0.5)'; // White with 50% opacity
+        ctx.strokeStyle = 'rgba(149, 247, 208, 0.5)';
         ctx.lineWidth = 4; // Slimmer lines
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
@@ -119,7 +119,7 @@ const ParticleBackground = () => {
         };
     }, [pathname]);
 
-    return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex: 0, backgroundColor: 'black' }} />;
+    return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, backgroundColor: 'black', zIndex: -1 }} />;
 };
 
 export default ParticleBackground;
