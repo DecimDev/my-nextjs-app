@@ -1,10 +1,11 @@
+import Link from "next/link";
 import Header from "../components/Header";
 
 
 export default function Home() {
 
   return (
-    <main className="flex justify-center items-center bg-black flex min-h-screen flex-col items-center py-32">
+    <main className="flex justify-center items-center flex flex-col items-center h-[calc(100vh-166px)]">
       <Header includeBackground={false}>
         <div className="text-left">
           <h1 className="text-4xl font-bold text-secondary mb-2">DecimDev</h1>
