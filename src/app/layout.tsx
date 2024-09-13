@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ParticleBackground from "../components/ParticleBackground";
+import ParticleBackground from "@/components/ParticleBackground";
 import ResponsiveNavigation from "@/components/ResponsiveNavigation";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";

@@ -1,7 +1,7 @@
 import React from 'react';
-import Experience from '../../components/Experience';
-import Navigation from '../../components/Navigation';
-import ParticleBackground from '../../components/ParticleBackground';
+import Experience from '@/components/Experience';
+import Navigation from '@/components/Navigation';
+import ParticleBackground from '@/components/ParticleBackground';
 
 export default function Work() {
   return (
