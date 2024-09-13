@@ -1,11 +1,16 @@
 import { NextResponse } from 'next/server';
 import sendEmail from '@/utils/sendEmail'; // Adjust the import path as needed
 
-export const config = {
-    api: {
-        bodyParser: true, // Adjust based on your form setup
-    },
-};
+export async function GET(request: Request) {
+    // Your existing GET handler code
+    return NextResponse.json({ message: 'Hello, world!' });
+}
+
+// If you had a config like this:
+// export const config = { runtime: 'edge' };
+
+// Replace it with the new convention:
+export const runtime = 'edge';
 
 export async function POST(request: Request) {
     const { name, email, message } = await request.json();
