@@ -8,6 +8,7 @@ class Particle {
     length: number;
     angle: number;
     speed: number;
+    maxSpeed: number; // Add maxSpeed property
 
     constructor(canvas: HTMLCanvasElement) {
         this.x = Math.random() * canvas.width;
@@ -15,6 +16,7 @@ class Particle {
         this.length = Math.random() * 300 + 100; // Longer rays
         this.angle = Math.PI / 1; // 45-degree angle from top-right to bottom-left
         this.speed = Math.random() * 1 + .5;
+        this.maxSpeed = 8; // Set a maximum speed limit
     }
 
     update(canvas: HTMLCanvasElement) {
@@ -41,7 +43,7 @@ class Particle {
     }
 
     speedUp() {
-        this.speed *= 4; // Double the speed
+        this.speed = Math.min(this.speed * 4, this.maxSpeed); // Ensure speed does not exceed maxSpeed
     }
     
     slowDown() {
